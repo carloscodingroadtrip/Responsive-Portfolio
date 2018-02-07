@@ -113,10 +113,13 @@ article img {
   float: left;
 }
 
-
-
 article h2 {
   color: #232B33;
+  transition: 0.5s;
+}
+
+h2:hover, h3:hover {
+  padding-left: 10px;
 }
 
 article p {
@@ -147,6 +150,7 @@ aside {
 
 aside h3 {
   color: #232B33;
+  transition: 0.5s;
 }
 
 
@@ -306,3 +310,12 @@ footer p {
     clear: both;
     content: "";
 }
+
+@media screen and (max-width: 979px) and (min-width: 640px) {
+
+  #containarticle #left-column, #right-column {
+   width: 80%;
+   margin: 5% 10%;
+  }
+}
+
