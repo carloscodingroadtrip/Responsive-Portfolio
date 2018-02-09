@@ -311,11 +311,23 @@ footer p {
     content: "";
 }
 
-@media screen and (max-width: 979px) and (min-width: 640px) {
+@media screen and (max-width: 980px) and (min-width: 641px) {
 
   #containarticle #left-column, #right-column {
    width: 80%;
    margin: 5% 10%;
   }
+
+  #right-column {
+    margin: 0 10% 10% 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }
 
